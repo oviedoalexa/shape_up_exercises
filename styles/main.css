@@ -10,6 +10,10 @@ header {
     & h1 {
         color: steelblue;
         font-style: italic;
+        font-size: 150%;
+    }
+    & h2 {
+        font-size: 125%;
     }
     & img {
         float: left;
@@ -45,6 +49,5 @@ footer {
 }
 
 /*Specifications
-• Set the font size for the <h1> element so it looks good.
 • In the header, float the image to the left and add some space between the image and the
 headings.
