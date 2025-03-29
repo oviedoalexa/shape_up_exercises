@@ -10,14 +10,16 @@ header {
     & h1 {
         color: steelblue;
         font-style: italic;
-        font-size: 150%;
+        font-size: 300%;
     }
     & h2 {
-        font-size: 125%;
+        font-size: 150%;
     }
     & img {
         float: left;
     }
+    text-indent: 30px;
+    line-height: 40px;
 }
 
 section {
