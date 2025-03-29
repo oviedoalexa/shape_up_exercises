@@ -1,0 +1,51 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+link {
+    font-weight: bold;
+}
+
+header {
+    & h1 {
+        color: steelblue;
+        font-style: italic;
+    }
+    & img {
+        float: left;
+    }
+}
+
+section {
+    & a:link, a:visited {
+        color: maroon;
+    }
+    & a:hover {
+        color: steelblue;
+    }
+}
+
+aside {
+    & h1 {
+        color: maroon;
+    }
+    & ul {
+        line-height: 1.5;
+    }
+    & a:link, a:visited {
+        color: steelblue;
+    }
+    & a:focus, a:hover {
+        color: maroon;
+    }
+}
+
+footer {
+    text-align: center;
+}
+
+/*Specifications
+• Set the font size for the <h1> element so it looks good.
+• In the header, float the image to the left and add some space between the image and the
+headings.
+• In the footer, reduce the font size and center it/*
