@@ -45,8 +45,6 @@ section {
     & h3 {
         padding: 10px 25px 0;
     }
-    float: left;
-    flex-basis: 75%;
 }
 
 aside {
@@ -73,16 +71,22 @@ aside {
     & li {
         padding: 0;
     }
-    float: right;
-    flex-basis: 25%;
-    float: right;
-    flex-basis; 25%;
+}
+
+#addres {
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+
+article {
+    float: left;
+    width: 55%;
 }
 
 #prep {
-    float: left;
-    flex-basis: 25;
-    
+    float: right;
+    width: 15%;
 }
 
 footer {
@@ -105,8 +109,4 @@ body {
     & h1 {
         padding: 15px 25px 10px;
     }
-}
-
-main {
-    display: flex;
 }
