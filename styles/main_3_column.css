@@ -67,26 +67,23 @@ aside {
     border: 3px solid steelblue;
     border-radius: 30px;
     margin: 15px 25px;
-    padding: 0;
-    & li {
-        padding: 0;
-    }
 }
 
 #addres {
-    float: left;
+    float: right;
     width: 20%;
-    height: 200px;
+    height: 250px;
 }
 
-article {
+section {
     float: left;
-    width: 55%;
+    width: 40%;
 }
 
 #prep {
     float: right;
     width: 15%;
+    height: 875px;
 }
 
 footer {
