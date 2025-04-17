@@ -45,16 +45,16 @@ section {
     & h3 {
         padding: 10px 25px 0;
     }
-}
-
-article {
-    float:left
+    float: left;
     flex-basis: 75%;
 }
 
 aside {
     & h1 {
         color: maroon;
+    }
+    & h3 {
+        text-indent: 24px;
     }
     & ul {
         line-height: 1.5;
@@ -68,13 +68,13 @@ aside {
     }
     border: 3px solid steelblue;
     border-radius: 30px;
-    margin: 15px 25px 0;
-    padding: 0;
-    & li {
-        padding: 0;
+    margin: 15px 25px;
+    & ul {
+        margin-bottom: 20px;
     }
     float: right;
     flex-basis: 25%;
+    height: 200px;
 }
 
 footer {
