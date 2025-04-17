@@ -45,7 +45,10 @@ section {
     & h3 {
         padding: 10px 25px 0;
     }
-    float: left;
+}
+
+article {
+    float:left
     flex-basis: 75%;
 }
 
@@ -72,8 +75,6 @@ aside {
     }
     float: right;
     flex-basis: 25%;
-    float: right;
-    flex-basis; 25%;
 }
 
 footer {
