@@ -46,7 +46,7 @@ section {
         padding: 10px 25px 0;
     }
     float: left;
-    flex-basis: 75%;
+    flex-basis: 66%;
 }
 
 aside {
@@ -73,7 +73,7 @@ aside {
         margin-bottom: 20px;
     }
     float: right;
-    flex-basis: 25%;
+    flex-basis: 33%;
     height: 200px;
 }
 
@@ -101,4 +101,33 @@ body {
 
 main {
     display: flex;
+}
+
+.menu {
+    display: flex;
+        & li {
+            flex-basis: 20%;
+            text-align: left;
+            list-style-type: none;
+    }
+}
+
+#navbar {
+    display: block;
+    background-color: steelblue;
+    padding: 1em 0;
+    margin: 0;
+    & a {
+        color: white;
+        text-decoration: none;
+    }
+    & a:hover {
+        text-decoration: underline;
+    }
+}
+
+.current {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 15px;
 }
