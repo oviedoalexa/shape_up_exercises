@@ -42,6 +42,9 @@ section {
     & blockquote {
         padding: 5px 60px;
     }
+    & h1 {
+        font-size: 175%;
+    }
     & h3 {
         padding: 10px 25px 0;
     }
@@ -113,6 +116,9 @@ main {
 
 #navbar {
     background-color: steelblue;
+    & li {
+        font-weight: bold;
+    }
     & a {
         color: white;
         text-decoration: none;
@@ -120,9 +126,13 @@ main {
     & a:hover {
         text-decoration: underline;
     }
-    & ul {
+    & ul li {
         list-style-type: none;
         padding: 15px;
+    }
+    & ul ul li {
+        text-align: left;
+        padding: 0;
     }
 }
 
@@ -130,4 +140,31 @@ main {
     border: 2px solid white;
     border-radius: 10px;
     padding: 5px 15px;
+}
+
+.menu:has(.submenu) {
+    position: relative;
+    & small {
+        margin: 7px;
+    }
+    & :hover > .submenu {
+        display: block;
+    }
+}
+
+.submenu {
+    position: absolute;
+    background-color: steelblue;
+    display: none;
+    & >li a {
+        margin: 1em 0;
+    }
+}
+
+.submenu > li:first-child a { 
+	margin-left: 0; 
+}
+
+.menu > li:last-child a { 
+	margin-right: 0; 
 }
